@@ -1,0 +1,68 @@
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fefefe; 
+}
+.navi div a {
+    margin-left: 10px; /* Ajoutez une marge entre les liens */
+    text-decoration: none;
+    color: #333; /* Couleur du texte des liens */
+}
+main {
+    text-align: center;
+}
+
+.little_title {
+    margin-bottom: 20px; 
+}
+
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    color: #3498db;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 20px;
+}
+
+
+.button:hover {
+    background-color: rgb(181, 196, 47);
+    color: white;
+}
+.container_un {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.post-it {
+    width: 200px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    background-color: #ffd700;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.post-it p {
+    font-style: italic;
+    font-weight: 100; 
+}
+
+
